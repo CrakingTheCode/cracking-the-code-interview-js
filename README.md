@@ -16,6 +16,8 @@ git pull origin main
 ## Create a custom branch for the exercise
 
 ```bash
+git chekout main
+git pull origin main
 git checkout -b example-exercise-name
 ```
 
@@ -25,6 +27,15 @@ git checkout -b example-exercise-name
 git add .
 git commit -m "Your description goes here"
 ```
+
+## Push branch to github
+
+```bash
+git push origin example-exercise-name
+```
+
+## Create pull request
+
 
 ## Switching branches
 
